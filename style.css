@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+p {
+    color: hsl(0, 0%, 100%);
+    opacity: 0.7;
+    font-size: 13px;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-main {
+    max-width: 360px;
+    background-color:#1f1f1f; 
+    border: 1px solid #1f1f1f;
+    border-radius: 10px;
+    text-align: center;
+    padding: 30px 45px;
+    margin: 0 auto;
+}
+
+.city-name {
+    font-size: 13px;
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    opacity: 0.7;
+}
+
+.social-links {
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: hsl(0, 0%, 20%);
+}
+
+ a { 
+  color: hsl(0, 0%, 100%);
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
